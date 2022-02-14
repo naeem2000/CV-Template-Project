@@ -35,17 +35,25 @@ body {
 
 .resume .resume_left {
   width: 280px;
-  background: #1D2951;
+  background: #1d2951;
 }
 
 .resume .resume_left .resume_profile {
-  width: 100%;
-  height: 250px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .resume .resume_left .resume_profile img {
   width: 100%;
   height: 100%;
+  padding: 20px;
+}
+
+#fileToUpload {
+  width: 70%;
 }
 
 .resume .resume_left .resume_content {
@@ -66,55 +74,55 @@ body {
 
 .resume .resume_item {
   padding: 25px 0;
-  border-bottom: 2px solid #1D2951;
-  }
-  .title label{
-    color: #fff;
-    font-weight: bold;
-  }
-  .title input{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    color: inherit;
-    padding-left: 10px;
-  }
-  .subT p{
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff;
-    font-size: 22px;
-  }
-  .data label{
-    color:#fff;
-    font-weight: bold;
-  }
-  .data input{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    color: inherit;
-  }
-.input{
+  border-bottom: 2px solid #1d2951;
+}
+.title label {
+  color: #fff;
+  font-weight: bold;
+}
+.title input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: inherit;
+  padding-left: 10px;
+}
+.subT p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 22px;
+}
+.data label {
+  color: #fff;
+  font-weight: bold;
+}
+.data input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: inherit;
+}
+.input {
   height: 30px;
   padding-left: 10px;
 }
-.textarea{
+.textarea {
   resize: none;
   height: 110px;
   background: transparent;
   padding-left: 10px;
   color: #fff;
 }
-.textaread{
+.textaread {
   height: 200px;
   background: transparent;
   color: #fff;
 }
-.text textarea{
+.text textarea {
   height: 160px;
   padding-left: 10px;
-  background: transparent
+  background: transparent;
 }
 
 .resume .resume_left .resume_social .semi-bold {
@@ -124,62 +132,44 @@ body {
 /* IDEA: welcome to the rigt hand SIDE */
 .resume .resume_right {
   width: 520px;
-  background: #4F518C;
+  background: #4f518c;
   padding: 25px;
 }
 
 .resume .resume_right .bold {
   color: #fff;
 }
-.textarea2{
+.textarea2 {
   height: 130px;
   width: 90%;
   color: #fff;
   padding-left: 10px;
 }
-  .txt3{
-    height: 60px;
-  }
-  .job label{
-    color: #fff;
-    font-weight: bold;
-  }
-  .job2 label{
-    color: #fff;
-    font-weight: bold;
-  }
-  .job2 input{
-    border: none;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    border: none;
-    border-bottom: 1px solid gray;
-    outline: none;
-    color: inherit;
-    background-color: transparent;
-
-  }
-.job input{
-  height: 30px;
-  width: 50%;
-  padding: 10px 0;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  border: none;
-  border-bottom: 1px solid gray;
-  outline: none;
-  color: inherit;
-  background-color: transparent;
+.txt3 {
+  height: 60px;
 }
-.edu label{
+.job label {
   color: #fff;
   font-weight: bold;
 }
-.edu input{
+.job2 label {
+  color: #fff;
+  font-weight: bold;
+}
+.job2 input {
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  color: inherit;
+  background-color: transparent;
+}
+.job input {
   height: 30px;
   width: 50%;
   padding: 10px 0;
@@ -192,10 +182,27 @@ body {
   color: inherit;
   background-color: transparent;
 }
-.job .info{
+.edu label {
+  color: #fff;
+  font-weight: bold;
+}
+.edu input {
+  height: 30px;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  color: inherit;
+  background-color: transparent;
+}
+.job .info {
   height: 30px;
 }
-.textarea2{
+.textarea2 {
   background: transparent;
   padding-left: 10px;
 }
@@ -220,7 +227,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #2B3A67 ;
+  background-color: #2b3a67;
   color: white;
 }
 
@@ -228,6 +235,6 @@ body {
   background-color: #009fd9;
 }
 
-.topnav a.upload  {
-  background-color: aquamarine;
+.topnav a.upload {
+  background-color: rgb(80, 182, 195);
 }
